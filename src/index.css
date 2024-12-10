@@ -1,0 +1,86 @@
+
+:root {
+  --red: rgb(191, 35, 46);
+  --black: #191919;
+  --gray: #e5e7eb;
+  font-family: Product Sans, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: var(--gray);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: 'Product Sans';
+  src: url('/assets/fonts/Product-Sans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Product Sans';
+  src: url('/assets/fonts/Product-Sans-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Product-Sans-Italic';
+  src: url('/assets/fonts/Product-Sans-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+/* 1. Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+
+body {
+  /* 3. Add accessible line-height */
+  line-height: 1.5;
+  /* 4. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+  font-family: "Product Sans",  serif;
+  color: var(--black);
+}
+
+/* 5. Improve media defaults */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 6. Inherit fonts for form controls */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* 7. Avoid text overflows */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* 8. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+/*
+  9. Create a root stacking context
+*/
+#root {
+  isolation: isolate;
+}
