@@ -1,4 +1,4 @@
-import {Devices, FAQ, Features, Footer, Hero, Intro} from "./components";
+import {Devices, FAQ, Features, Footer, Hero, Intro, Navbar} from "./components";
 
 
 function App() {
@@ -6,11 +6,14 @@ function App() {
 
   return (
     <>
-        <Hero />
-        <Intro />
-        <Devices />
-        <Features />
-        <FAQ   />
+        <Navbar />
+        <main>
+            <Hero />
+            <Intro />
+            <Devices />
+            <Features />
+            <FAQ   />
+        </main>
         <Footer />
     </>
   )
