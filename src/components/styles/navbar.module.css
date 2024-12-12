@@ -6,6 +6,7 @@
     top: 0;
     left: 0;
     right: 0;
+    z-index: 99;
 }
 
 .navbar_hidde {
@@ -63,7 +64,7 @@
     color: var(--red);
 }
 /* Media query for smaller screens */
-@media (max-width: 768px) {
+@media (max-width: 908px) {
     .navbar_container_desktop_menu{
         display: none;
     }
