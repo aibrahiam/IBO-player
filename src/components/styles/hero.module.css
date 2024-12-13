@@ -49,11 +49,6 @@
         transition: 900ms ease-in-out;
     }
     a{
-        background-color: var(--red);
-        padding: 0.5rem 3.2rem;
-        width: fit-content;
-        border-radius: 5px;
-        cursor: pointer;
 
         opacity: 0;
         transition: 1s ease-in-out;
