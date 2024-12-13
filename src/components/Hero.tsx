@@ -12,7 +12,7 @@ const Hero = () => {
             <div className={`${style.hero_content} ${isMounted && style.hero_content_active}`}>
                 <h1><span>IBO Player:</span> Where Media Player Evolution Takes Center Stage</h1>
                 <p>Step into IBO Player, the beating heart of Media Player innovation! Our platform is the hub for cutting-edge entertainment solutions, boasting an extensive collection of state-of-the-art streaming technologies and thoughtfully curated content</p>
-                <a>Explore</a>
+                <a className="btn">Explore</a>
             </div>
         </section>
     );
