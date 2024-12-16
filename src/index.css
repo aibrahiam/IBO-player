@@ -123,6 +123,7 @@ section:not(:first-of-type){
     max-width: 1560px;
     padding-inline: 1rem;
   }
+
 }
 @media screen and (width < 908px) {
   body{

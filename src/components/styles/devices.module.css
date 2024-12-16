@@ -1,0 +1,57 @@
+.container{
+    padding-block: 2rem;
+    background-color: black;
+    margin-block: 5rem;
+}
+.container .devices{
+    max-width: 1560px;
+    margin: 3rem auto;
+    display: grid;
+    gap: 1.5rem;
+}
+.header{
+    font-size: 1.1rem;
+    color: var(--gray);
+    text-align: center;
+    padding: 1rem;
+}
+/* Marquee.css */
+.marquee {
+    --gap: 1rem;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap: var(--gap);
+    max-width: 90%;
+    margin-inline: auto;
+
+    .marquee__content {
+        flex-shrink: 0;
+        display: flex;
+        justify-content: space-around;
+        gap: var(--gap);
+        min-width: 100%;
+        animation: scroll 10s linear infinite;
+    }
+}
+@media screen and (width < 800px) {
+    .marquee{
+        max-width: 100%;
+        margin-inline: 0;
+    }
+    .header{
+        text-wrap: auto;
+        padding: 10px;
+    }
+}
+/* Enable animation */
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(calc(-100% - var(--gap)));
+    }
+}
+
