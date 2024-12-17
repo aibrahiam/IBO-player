@@ -3,28 +3,18 @@ interface marquees_content {
     image: string
 }
 export const data : marquees_content[]  = [
-    { name: 'allplayer', image: '/assets/allplayer.svg' },
-    { name: 'bobplayer', image: '/assets/bobplayer.svg' },
-
-    { name: 'hushplayer', image: '/assets/hushplayer.svg' },
-    { name: 'ibosol', image: '/assets/ibosol.svg' },
-    { name: 'iboss', image: '/assets/iboss.svg' },
-    { name: 'iboxx', image: '/assets/iboxx.svg' },
-    { name: 'kingiptv', image: '/assets/kingiptv.svg' },
-
-    { name: 'macplayer', image: '/assets/macplayer.svg' },
-    { name: 'virginia', image: '/assets/virginia.svg' },
+    { name: "apple", image: '/assets/marquees/apple.png' },
+    { name: "samsung", image: '/assets/marquees/samsung.png' },
+    { name: "android", image: '/assets/marquees/android.png' },
+    { name: "roku", image: '/assets/marquees/roku.png' },
+    { name: "sony", image: '/assets/marquees/sony.png' },
+    { name: "windows", image: '/assets/marquees/windows.png' },
 ];
 export const data2 : marquees_content[] = [
-    { name: 'allplayer2', image: '/assets/allplayer.svg' },
-    { name: 'bobplayer2', image: '/assets/bobplayer.svg' },
-
-    { name: 'hushplayer2', image: '/assets/hushplayer.svg' },
-    { name: 'ibosol2', image: '/assets/ibosol.svg' },
-    { name: 'iboss2', image: '/assets/iboss.svg' },
-    { name: 'iboxx2', image: '/assets/iboxx.svg' },
-    { name: 'kingiptv2', image: '/assets/kingiptv.svg' },
-
-    { name: 'macplayer2', image: '/assets/macplayer.svg' },
-    { name: 'virginia2', image: '/assets/virginia.svg' }
-]
+    { name: "apple2", image: '/assets/marquees/apple.png' },
+    { name: "samsung2", image: '/assets/marquees/samsung.png' },
+    { name: "android2", image: '/assets/marquees/android.png' },
+    { name: "roku2", image: '/assets/marquees/roku.png' },
+    { name: "sony2", image: '/assets/marquees/sony.png' },
+    { name: "windows2", image: '/assets/marquees/windows.png' },
+];
