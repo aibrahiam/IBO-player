@@ -1,7 +1,6 @@
 import {data, data2} from "../utils/data.tsx";
 import style from "./styles/devices.module.css"
 const Devices = () => {
-    console.log(data)
     return (
         <div className={style.container}>
             <section className={style.devices}>

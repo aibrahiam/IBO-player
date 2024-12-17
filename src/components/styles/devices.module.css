@@ -17,7 +17,7 @@
 }
 /* Marquee.css */
 .marquee {
-    --gap: 1rem;
+    --gap: 6rem;
     display: flex;
     overflow: hidden;
     user-select: none;
@@ -29,9 +29,14 @@
         flex-shrink: 0;
         display: flex;
         justify-content: space-around;
+        align-items: center;
         gap: var(--gap);
         min-width: 100%;
-        animation: scroll 10s linear infinite;
+        animation: scroll 20s linear infinite;
+
+        img{
+            max-height: 35px;
+        }
     }
 }
 @media screen and (width < 800px) {
