@@ -1,0 +1,62 @@
+.header{
+    display: grid;
+    gap: 1.8rem;
+
+    div{
+        font-size: 1.3rem;
+        color: var(--red);
+    }
+    h4{
+        color: black;
+    }
+}
+.grid {
+    display: grid;
+    grid-template-areas:
+    "a b b c"
+    "a d d c";
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    margin-top: 2.5rem;
+    padding-inline: 1rem;
+    div img {
+        object-fit: cover;
+        height: 100%;
+    }
+    div{
+        border-radius: 30px;
+        overflow: hidden;
+    }
+}
+
+.a {
+    grid-area: a;
+
+}
+
+.b {
+    grid-area: b;
+}
+
+.c {
+    grid-area: c;
+}
+
+.d {
+    grid-area: d;
+}
+@media screen and (width < 900px) {
+    .grid{
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "a c"
+        "a c"
+        "b b"
+        "d d";
+        div{
+            border-radius: 15px;
+            overflow: hidden;
+        }
+        padding-inline: 0;
+    }
+}
