@@ -7,3 +7,4 @@ export { default as Footer } from './Footer';
 export { default as Intro } from './Intro';
 export { default as Navbar } from './Navbar';
 export { default as Partners } from './Partners';
+export { default as Details } from './Details';

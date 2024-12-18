@@ -1,4 +1,3 @@
-import Partners from "./Partners.tsx";
 import style from "./styles/features.module.css"
 
 const Features = () => {
@@ -24,7 +23,7 @@ const Features = () => {
                     <img src="/assets/3-DogtsELa.png" alt="placeholder"/>
                 </div>
             </div>
-            <Partners/>
+
 
         </section>
     );
