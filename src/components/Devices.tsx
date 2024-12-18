@@ -1,4 +1,4 @@
-import {data, data2} from "../utils/data.tsx";
+import {data} from "../utils/data.tsx";
 import style from "./styles/devices.module.css"
 const Devices = () => {
     return (
@@ -10,7 +10,7 @@ const Devices = () => {
                         {data.map(element => <img src={element.image} alt={element.name} key={element.name}/>)}
                     </div>
                     <div className={style.marquee__content} aria-hidden={true}>
-                        {data2.map(element => <img src={element.image} alt={element.name} key={element.name}/>)}
+                        {data.map((element, index) => <img src={element.image} alt={element.name} key={`${element.name}${index}`}/>)}
                     </div>
                 </div>
             </section>

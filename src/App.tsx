@@ -1,4 +1,4 @@
-import {Devices, FAQ, Features, Footer, Hero, Intro, Navbar} from "./components";
+import {Details, Devices, FAQ, Features, Footer, Hero, Intro, Navbar, Partners} from "./components";
 
 
 function App() {
@@ -12,6 +12,8 @@ function App() {
             <Intro />
             <Devices />
             <Features />
+            <Partners />
+            <Details />
             <FAQ   />
         </main>
         <Footer />
